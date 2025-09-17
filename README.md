@@ -1,4 +1,4 @@
-# RoboMisk_#1642
+# RoboMisk_####
 **Contemplate · Create · Conquer**
 
 This repository contains details about the design, evolution, and continuous development of our self-driving robot vehicle, built and programmed by Team Circuitron for the Future Engineers 2025 category of the World Robot Olympiad (WRO).
@@ -6,7 +6,7 @@ This repository contains details about the design, evolution, and continuous dev
 ---
 
 ## Member Details
-1. Abdullah Alobaidi (Software)  
+1. Abdullah Alobaidi (Software)
 2. Abdullah Almodaimigh (Hardware)  
 
 ---
@@ -28,10 +28,22 @@ This repository contains details about the design, evolution, and continuous dev
 Our engineering notebook contains more information about our robot and can be found here:
 
 ## Hardware Overview
-
 ---
 
-Modular hardware architecture to deliver high performance, flexibility, support iterative development cycles.
+## Table of Contents
+1. [Hardware Overview](#hardware-overview)
+2. [Processing Unit](#processing-unit)
+3. [Vision System](#vision-system)
+4. [Locomotion](#locomotion)
+5. [Steering System](#steering-system)
+6. [Power Management](#power-management)
+7. [Chassis](#chassis)
+8. [License](#license)
+
+
+
+Our robotic platform is engineered with a modular hardware architecture  
+to deliver high performance, flexibility, and support iterative development cycles.
 
 ---
 
@@ -103,6 +115,8 @@ Real-time control algorithms are essential for autonomous navigation and decisio
 - Modularity for rapid iterations
 - Ease of customisation
 - Supports quick repositioning of components and continuous mechanical optimisation
+
+
 
 ## Strategy
 Open Challenge Strategy
