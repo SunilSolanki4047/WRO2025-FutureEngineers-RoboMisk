@@ -130,11 +130,11 @@ STEER_FACTOR_LEFT_Y_DIFF = 0.07
 [The above are Kp values that teams shall have to adjust based on their robot for different aspects of the code]
 # Camera settings
 
-EXPOSURE_TIME =13000 #Brightness setting for the PiCam3
+EXPOSURE_TIME =12000 #Brightness setting for the PiCam3
 
 X_RESOL = 1080 #Screen width
 
-Y_RESOL = 300 #Screen Length
+Y_RESOL = 350 #Screen Length
 
 X_MID = X_RESOL / 2 #Middle of the screen
 
@@ -149,32 +149,25 @@ GREEN_LOWER = np.array([50, 100, 50])
 
 GREEN_UPPER = np.array([70, 255, 255])
 
-RED_LOWER1 = np.array([0, 120, 50])
+RED_LOWER1 = np.array([0, 120, 70])
 
 RED_UPPER1 = np.array([10, 255, 255])
 
-RED_LOWER2 = np.array([160, 120, 50])
+RED_LOWER2 = np.array([170, 120, 70])
 
-RED_UPPER2 = np.array([165, 255, 255])
-
-PINK_LOWER = np.array([160, 100, 120])
-
-PINK_UPPER = np.array([175, 255, 255])
+RED_UPPER2 = np.array([180, 255, 255])
 
 BLACK_LOWER = np.array([0, 0, 0])
-
-BLACK_UPPER = np.array([179, 255, 50])
+BLACK_UPPER = np.array([179, 255, 120])
 
 BLUE_LOWER = np.array([100, 150, 50])
 BLUE_UPPER = np.array([130, 255, 255])
 
 ORANGE_LOWER = np.array([10, 150, 100])
-
 ORANGE_UPPER = np.array([25, 255, 255])
 
-PURPLE_LOWER = np.array([160, 80, 40])
-
-PURPLE_UPPER = np.array([175, 255, 200])
+PURPLE_LOWER = np.array([160, 60, 30])
+PURPLE_UPPER = np.array([175, 255, 255])
 
 [The above are the Hue, Saturation and Value features required for the detection of the black walls, obstacle, orange and blue lines and parking zone. If the HSV values are not sufficient for the given detection, teams may modify them]
 
